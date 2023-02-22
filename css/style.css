@@ -19,10 +19,20 @@ img {
   display: block;
 }
 
+
+/* Style rules for mobile viewport */
+
 /* Style rule for header */
 header {
-  width: 25%;
-  float: left;
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 190px;
+}
+
+header img {
+    margin: 0 auto;
 }
 
 /* Style rules for navigation area */
